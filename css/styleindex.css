@@ -1,0 +1,71 @@
+/* Harmonisation des règles générales. */
+html {
+    scroll-behavior: smooth;
+  }
+
+.fas {
+    opacity: 50%;
+}
+.fas:hover {
+    opacity: 90%;
+
+}
+
+.bg-primary {
+    background-color: #1d3557 !important;
+}
+
+.text-primary {
+    color: #1d3557 !important;
+}
+
+.bg-secondary {
+    background-color: #a8dadc !important;
+}
+
+.btn {
+    background: #e63946!important;
+}
+
+.text-white {
+    color: #f1faee !important;
+}
+
+section {
+    height: 100vh;
+}
+
+/* Enter / Header */
+header {
+    height: 100vh;
+    padding-top: 33vh;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    color: #f1faee;
+    font-size: 10vw;
+}
+
+
+h2 {
+    color: #a8dadc;
+    font-weight: lighter;
+    font-size: 3vw;
+}
+
+.btnEnter {
+    border-color: #f1faee !important;
+    background-color: #a8dadc !important;
+    font-weight: 400;
+    font-size: 12x;
+    text-transform: uppercase;
+}
+
+/* Nav  */
+
+nav {
+    height: 100vh;
+    padding-top: 33vh;
+}
+
