@@ -3,6 +3,14 @@ html {
     scroll-behavior: smooth;
   }
 
+.scrollup {
+    right: -300px;
+}
+a{
+    text-decoration: none!important;
+    color: #f1faee !important;
+}
+
 .fas {
     opacity: 50%;
 }
@@ -24,6 +32,9 @@ html {
 }
 
 .btn {
+    padding-left: 60px;
+    padding-right: 60px;
+
     background: #e63946!important;
 }
 
@@ -37,7 +48,7 @@ section {
 
 /* Enter / Header */
 header {
-    height: 100vh;
+    height: 55vh;
     padding-top: 33vh;
 }
 
@@ -66,6 +77,12 @@ h2 {
 
 nav {
     height: 100vh;
-    padding-top: 33vh;
+    padding-top: 33%;
+    padding-bottom: 33%;
 }
 
+.resumebtn {
+    background-color: #a8dadc18;
+    border-radius: 5px;
+    padding: 2rem;
+}
