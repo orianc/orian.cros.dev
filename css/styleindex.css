@@ -41,10 +41,6 @@ a {
     color: #f1faee !important;
 }
 
-section {
-    height: 100vh;
-}
-
 .btn {
     padding-left: 60px;
     padding-right: 60px;
@@ -54,8 +50,8 @@ section {
 
 /* Enter / Header */
 header {
-    height: 55vh;
-    padding-top: 33vh;
+    min-height: 100vh;
+    padding-top: 40vh;
 }
 
 h1 {
@@ -82,8 +78,8 @@ h2 {
 /* Nav  */
 
 nav {
-    padding-top: 33%;
-    padding-bottom: 33%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .resumebtn {
@@ -96,7 +92,16 @@ nav {
 /* Section aboutMe */
 
 #aboutme {
-    background-image: linear-gradient(#1d35575b, #1d35575b), url(../img/photo-tete.jpg);
-    background-position: right;
+    box-shadow: inset 0px 0px 15px 0.5px rgba(0, 0, 0, 0.171);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.267) , rgba(75, 0, 0, 0.137) ),linear-gradient(#fffeee5b, #1d3557c9), url(../img/photo-tete.jpg);
+    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+}
+.boxImgCv
+{
+    height: 150px; border-radius: 10px;
+    background-image: url(../img/cv-miniature.jpg); 
+    background-size:contain; background-position:center; background-repeat: no-repeat;
 }

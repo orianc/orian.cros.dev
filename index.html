@@ -21,6 +21,8 @@
 
 
 <body>
+
+    <!-- Header avec Nom de site -->
     <header class="container-fluid bg-primary">
         <div class="text-center container ">
             <h1 class="mb-0">Orian CROS</h1>
@@ -28,6 +30,10 @@
             <a href="#navPart"><i class="pb-2 fas fa-arrow-down fa-2x text-white"></i></a>
         </div>
     </header>
+
+    <!-- Intro dynamique avec image fixe -->
+
+
 
     <!-- Le menu de navigation doit comporter 4 titres qui eux même comporte un petit paragraphe résumant la section ::hover -->
     <nav id="navPart" class="container-fluid bg-primary">
@@ -70,23 +76,18 @@
     </span>
 
     <!-- Section aboutMe -->
-        
-    <section id="aboutme" class="container-fluid">
-        <div class="row h-100 align-content-center justify-content-between">
-            <div class="btnNav col-sm-3 col-lg-3 text-center">
-                <a href="#" class="btn mx-2 text-white font-weight-bold">BioPic</a>
-                <p class="resumebtn  mb-0 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    <section id="aboutme" class="container-fluid px-4">
+        <div class="row h-100 align-content-center justify-content-around">
+            <div class="btnNav col-sm-6 col-lg-3 text-center">
+                <a href="#" class="btn text-white font-weight-bold">BioPic</a>
+                <p class="resumebtn  mb-3 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Praesentium
                     harum,veritatis nihil optio molestias earum corporis porro libero in aut.</p>
             </div>
-            <div class="btnNav col-sm-6 col-lg-2">
+            <div class="btnNav col-sm-6 col-lg- text-center">
                 <a href="./dl/CV Formation digitale.pdf" download="cv">
                     <div class="btn text-white font-weight-bold mb-1">CV</div>
-                    <div class=""
-                        style=" height: 150px; border-radius: 10px;
-                                background-image: url(./img/cv-miniature.jpg); 
-                                background-size:contain; background-position:center; background-repeat: no-repeat;">
-                    </div>
+                    <div class="boxImgCv"></div>
                 </a>
 
             </div>
@@ -95,7 +96,7 @@
 
 
     <!-- Section Skills -->
-    <section id="skills"></section>
+    <section id="skills" style="width: 100vw; height: 80vh;"></section>
 
     <!-- Section Réalisations -->
     <section id="realisation" class="bg-dark"></section>
