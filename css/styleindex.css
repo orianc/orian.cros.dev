@@ -86,3 +86,12 @@ nav {
     border-radius: 5px;
     padding: 2rem;
 }
+
+
+/* Section aboutMe */
+
+#aboutme {
+    background-image:  linear-gradient(#1d35575b,#1d35575b) , url(../img/photo-tete.jpg);
+    background-position:right;
+    background-size:cover;
+}
