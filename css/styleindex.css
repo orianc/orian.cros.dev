@@ -1,19 +1,25 @@
 /* Harmonisation des règles générales. */
 html {
     scroll-behavior: smooth;
-  }
+}
+
+p {
+    font-size: 11px;
+}
 
 .scrollup {
     right: -300px;
 }
-a{
-    text-decoration: none!important;
+
+a {
+    text-decoration: none !important;
     color: #f1faee !important;
 }
 
 .fas {
     opacity: 50%;
 }
+
 .fas:hover {
     opacity: 90%;
 
@@ -31,19 +37,19 @@ a{
     background-color: #a8dadc !important;
 }
 
-.btn {
-    padding-left: 60px;
-    padding-right: 60px;
-
-    background: #e63946!important;
-}
-
 .text-white {
     color: #f1faee !important;
 }
 
 section {
     height: 100vh;
+}
+
+.btn {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 14px;
+    background: #e63946 !important;
 }
 
 /* Enter / Header */
@@ -76,7 +82,6 @@ h2 {
 /* Nav  */
 
 nav {
-    height: 100vh;
     padding-top: 33%;
     padding-bottom: 33%;
 }
@@ -91,7 +96,7 @@ nav {
 /* Section aboutMe */
 
 #aboutme {
-    background-image:  linear-gradient(#1d35575b,#1d35575b) , url(../img/photo-tete.jpg);
-    background-position:right;
-    background-size:cover;
+    background-image: linear-gradient(#1d35575b, #1d35575b), url(../img/photo-tete.jpg);
+    background-position: right;
+    background-size: cover;
 }
