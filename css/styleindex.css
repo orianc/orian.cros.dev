@@ -48,6 +48,25 @@ a {
     background: #e63946 !important;
 }
 
+.titre-section {
+    position: relative;
+    margin-bottom: 20px;
+    left: -50px;
+    top: -6px;
+    padding-left: 20vw!important;
+    padding-right: 20vw!important;
+    font-size: 14px;
+    background: #1d3557;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
 /* Enter / Header */
 header {
     min-height: 100vh;
@@ -65,6 +84,14 @@ h2 {
     color: #a8dadc;
     font-weight: lighter;
     font-size: 3vw;
+}
+
+h3 {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding: 0.4rem;
+    font-size: 14px;
+    background: #e63946 !important;
 }
 
 .btnEnter {
@@ -93,15 +120,44 @@ nav {
 
 #aboutme {
     box-shadow: inset 0px 0px 15px 0.5px rgba(0, 0, 0, 0.171);
-    background-image: radial-gradient(rgba(255, 255, 255, 0.267) , rgba(75, 0, 0, 0.137) ),linear-gradient(#fffeee5b, #1d3557c9), url(../img/photo-tete.jpg);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.267), rgba(75, 0, 0, 0.137)), linear-gradient(#fffeee5b, #1d3557c9), url(../img/photo-tete.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 60vh;
+    height: 80vh;
 }
-.boxImgCv
-{
-    height: 150px; border-radius: 10px;
-    background-image: url(../img/cv-miniature.jpg); 
-    background-size:contain; background-position:center; background-repeat: no-repeat;
+
+.boxImgCv {
+    height: 150px;
+    border-radius: 10px;
+    background-image: url(../img/cv-miniature.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Skills */
+
+
+#skills {
+    box-shadow: inset 0px 0px 15px 0.5px rgba(0, 0, 0, 0.171);
+    height: 80vh;
+}
+
+.fondSkills {
+    background: #457b9d;
+}
+
+.fondSkillsDetail {
+    background-color: #a8dadc18;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/* Réalisation */
+
+#realisation {
+    height: 50vh;
+    width: 80vw;
+    background: #e63946;
 }
