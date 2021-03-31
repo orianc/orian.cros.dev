@@ -29,12 +29,16 @@ a {
     background-color: #1d3557 !important;
 }
 
-.text-primary {
-    color: #1d3557 !important;
-}
 
 .bg-secondary {
     background-color: #a8dadc !important;
+}
+.bg-three {
+    background-color: #457b9d !important;
+
+}
+.text-primary {
+    color: #1d3557 !important;
 }
 
 .text-white {
@@ -156,4 +160,11 @@ nav {
 #realisation {
     height: 50vh;
     background: #e63946;
+}
+
+/* Contact */
+
+#contact {
+    height: 100vh;
+    background: #1d3557;
 }

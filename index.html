@@ -89,7 +89,8 @@
         <div class="row h-75  align-content-center justify-content-around">
             <div class="btnNav  col-sm-6 col-lg-3 text-center">
                 <a href="#" class="btn shadow-sm text-white font-weight-bold">BioPic</a>
-                <p class="resumebtn shadow-sm  mb-3 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                <p class="resumebtn shadow-sm  mb-3 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit.
                     Praesentium
                     harum,veritatis nihil optio molestias earum corporis porro libero in aut.</p>
             </div>
@@ -147,7 +148,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                   
+
                 </div>
             </div>
         </div>
@@ -155,17 +156,46 @@
 
 
     <!-- Section Contact -->
-    <section id="contact">
-        <div class="container-fluid d-flex bg-primary vh-100">
-            <div class="row w-100 bg-white">
-                <div class="container-fluid col-12 col-sm-6 bg-secondary"></div>
-                <div class="container-fluid col-12 col-sm-6 bg-dark"></div>
+    <section id="contact" class="container-fluid d-flex align-items-center">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <!-- Le btn qui affiche le collapse -->
+                <p>
+                    <a class="btn" data-bs-toggle="collapse" href="#FormContact" role="button" aria-expanded="false"
+                        aria-controls="FormContact">
+                        Contactez moi ! </a>
+                </p>
+                <!-- Le contenu du collapse -->
+                <div class="collapse" id="FormContact">
+                    <!-- Mes coordonnées -->
+                    <div class="card card-body mb-5 bg-three text-center text-white">
+                        Une question, un besoin ou simplement envie d'échanger autour du web ? C'est ici ! </div>
+                    <!-- Form -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="InputEmail" class="form-label text-white">Votre mail</label>
+                            <input type="email" class="form-control" id="InputEmail" placeholder="mail@mail.com" required   re>
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputText" class="form-label text-white">Votre message</label>
+                            <textarea class="form-control" placeholder="Je trouve votre portoflio très sympa et..."
+                                id="InputText" style="height: 100px" required></textarea>
+                        </div>
+                        <button href="mailto:orian.ea15@gmail.com" type="submit" class="btn text-white">Envoyer</button>
+                    </form>
+                </div>
 
             </div>
         </div>
-
     </section>
 
+    <!-- <div class="col-12 col-sm-6 bg-dark">
+        <h3 class="btn">Form</h3>
+
+    </div>
+    <div class="col-12 col-sm-6 bg-secondary">
+        <h3 class="btn">Contact</h3>
+    </div> -->
 
 
 
