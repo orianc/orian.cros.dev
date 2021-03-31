@@ -26,7 +26,7 @@ a {
 }
 
 .bg-primary {
-    background-color: #1d3557 !important;
+    background-color: #f1faee !important;
 }
 
 
@@ -42,14 +42,15 @@ a {
 }
 
 .text-white {
-    color: #f1faee !important;
+    color: #1d3557 !important;
 }
 
 .btn {
     padding-left: 60px;
     padding-right: 60px;
     font-size: 14px;
-    background: #e63946 !important;
+    color: #f1faee!important;
+    background: #1d3557 !important;
 }
 
 
@@ -73,6 +74,12 @@ a {
 header {
     min-height: 100vh;
     padding-top: 40vh;
+    box-shadow: inset 0px 0px 15px 0.5px rgba(0, 0, 0, 0.171);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.267), rgba(75, 0, 0, 0.137)), linear-gradient(#fffeee5b, #1d3557c9), url(../img/photo-tete.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 h1 {
