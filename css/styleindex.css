@@ -2,10 +2,10 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
-
 }
 
 p {
@@ -38,10 +38,12 @@ a {
 .bg-secondary {
     background-color: #a8dadc !important;
 }
+
 .bg-three {
     background-color: #f0f0f0 !important;
 
 }
+
 .text-primary {
     color: #1d3557 !important;
 }
@@ -53,14 +55,14 @@ a {
 .btn {
     font-weight: 100;
     text-transform: uppercase;
-    color: #1d3557!important;
+    color: #1d3557 !important;
 }
 
 
 .titre-section {
     margin-bottom: 20px;
-    padding-left: 2rem!important;
-    padding-right: 2rem!important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
     font-size: 14px;
     background: #1d3557;
     display: inline-block;
@@ -69,14 +71,14 @@ a {
     text-align: center;
     vertical-align: middle;
     padding: .375rem .75rem;
-    border-radius: 0px 0px 5px 5px ;
+    border-radius: 0px 0px 5px 5px;
 
 }
 
 /* Enter / Header */
 header {
     min-height: 100vh;
-    padding-top: 40vh;
+    padding-top: 20vh;
     box-shadow: inset 0px 0px 15px 0.5px rgba(0, 0, 0, 0.171);
     background-image: radial-gradient(rgba(255, 255, 255, 0.267), rgba(75, 0, 0, 0.137)), linear-gradient(#fffeee5b, #1d3557c9), url(../img/photo-tete.jpg);
     background-position: center;
@@ -86,16 +88,16 @@ header {
 }
 
 h1 {
-    font-family: 'Bebas Neue', cursive; 
-    color: #f1faee;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(245, 245, 245);
     font-size: 10vw;
 }
 
 
 h2 {
-    color: #a8dadc;
+    color: #1d3557;
     font-weight: lighter;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 h3 {
@@ -112,8 +114,8 @@ h3 {
 .brand {
     color: #1d3557;
     font-size: 2.3rem;
-
 }
+
 
 .resumebtn {
     background-color: #a8dadc18;
@@ -126,10 +128,11 @@ h3 {
 
 #aboutme {
     box-shadow: inset 0px 0px 15px 0.5px rgba(0, 0, 0, 0.171);
-    background-image: radial-gradient(rgba(255, 255, 255, 0.267), rgba(75, 0, 0, 0.137)), linear-gradient(#fffeee5b, #1d3557c9), url(../img/photo-tete.jpg);
+    /* background-image: radial-gradient(rgba(255, 255, 255, 0.267), rgba(75, 0, 0, 0.137)), linear-gradient(#fffeee5b, #1d3557c9), url(../img/photo-tete.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+
     height: 80vh;
 }
 
