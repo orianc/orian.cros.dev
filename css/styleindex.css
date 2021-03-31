@@ -2,6 +2,11 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+
+}
 
 p {
     font-size: 11px;
@@ -12,8 +17,8 @@ p {
 }
 
 a {
-    text-decoration: none !important;
-    color: #f1faee !important;
+    color: #1d3557 !important;
+    text-transform: uppercase;
 }
 
 .fas {
@@ -26,7 +31,7 @@ a {
 }
 
 .bg-primary {
-    background-color: #f1faee !important;
+    background-color: #fcfcfc !important;
 }
 
 
@@ -34,7 +39,7 @@ a {
     background-color: #a8dadc !important;
 }
 .bg-three {
-    background-color: #457b9d !important;
+    background-color: #f0f0f0 !important;
 
 }
 .text-primary {
@@ -46,11 +51,9 @@ a {
 }
 
 .btn {
-    padding-left: 60px;
-    padding-right: 60px;
-    font-size: 14px;
-    color: #f1faee!important;
-    background: #1d3557 !important;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #1d3557!important;
 }
 
 
@@ -83,7 +86,7 @@ header {
 }
 
 h1 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Bebas Neue', cursive; 
     color: #f1faee;
     font-size: 10vw;
 }
@@ -103,19 +106,13 @@ h3 {
     background: #e63946 !important;
 }
 
-.btnEnter {
-    border-color: #f1faee !important;
-    background-color: #a8dadc !important;
-    font-weight: 400;
-    font-size: 12x;
-    text-transform: uppercase;
-}
 
 /* Nav  */
 
-nav {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+.brand {
+    color: #1d3557;
+    font-size: 2.3rem;
+
 }
 
 .resumebtn {
