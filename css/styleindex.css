@@ -133,7 +133,35 @@ h3 {
     background-size: cover;
     background-attachment: fixed; */
 
-    height: 80vh;
+    height: 100vh;
+}
+#presentationcarousel {
+    height: 100vh;
+
+}
+
+.carousel-indicators li {
+    border: none;
+    background: #ccc;
+}
+
+.carousel-indicators li.active {
+    background: #28a745;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    color: #1d3557!important;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #1d3557!important;
+}
+.pQuote {
+    font-size: 2.5vw!important;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.text-success {
+    color: #1d3557!important;
 }
 
 .boxImgCv {
